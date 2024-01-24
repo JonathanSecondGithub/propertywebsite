@@ -86,3 +86,9 @@ bottomNavItems.forEach((item, index) => {
         bottomMove.style.left = index * 25 + '%'
     }
 })
+
+
+function redirectToPage(targetPage) {
+    // Use window.location.href to navigate to the target page
+    window.location.href = targetPage;
+}
